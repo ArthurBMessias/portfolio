@@ -8,6 +8,7 @@ class App extends Component {
       <div className="App">
        <h1> My React Test</h1>
        <h2> Teste do teste final finalizando o teste testando o que precisa ser testado</h2>
+       <h3> testando commit para eventuais mudanças</h3>
       </div>
     );
   }
