@@ -1,18 +1,23 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import ProviderContext from './Context/ProviderContext';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-       <h1> My React Test</h1>
-       <h2> Teste do teste final finalizando o teste testando o que precisa ser testado</h2>
-       <h3> testando commit para eventuais mudanças</h3>
-       <h3> testando dependencias </h3>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <ProviderContext>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </ProviderContext>
+  );
 }
 
 export default App;

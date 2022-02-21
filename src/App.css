@@ -1,24 +1,164 @@
-.App {
+body {
+  background-color: rgb(255, 255, 255)
+
+}
+
+
+li {
+  padding: 10px;
+  margin-right: 30px;
+  transition: box-shadow .5s;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+  cursor: pointer;
+  font-family: 'Luxurious Roman', cursive;
+
+}
+
+footer {
+  position: absolute;
+  top: 1600px;
   text-align: center;
+  left: 450px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.listItems {
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 10px;
+
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+li:hover {
+  box-shadow: 0 0 30px rgba(145,500,250,.5); 
 }
 
-.App-intro {
-  font-size: large;
+.firstName {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  width: 400px;
+  color: rgb(145, 145, 145);
+  font-size: 20px;
+  font-family: 'Luxurius Roman', cursiuve;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.wantedJob {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 30px;
+  margin-left: 45px;
+  width: 500px;
+  color: rgb(15, 20, 30);
+  font-size: 80px;
+  position: absolute;
+  top: 250px;
+
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  width: 300px;
+  font-size: 25px;
+  color: rgb(145, 145, 145);
+  position: absolute;
+  top: 450px;
+}
+
+.portImage {
+  position: absolute;
+  width: 900px;
+  margin-left: 387px;
+  top: 30px;
+  margin-top: 30px;
+  -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, 
+  color-stop(0.00,  rgba(0,0,0,0)),
+  color-stop(1.00,  rgba(0,0,0,1)));
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 700px;
+ 
+}
+
+.titleContainer {
+  padding-left: 30px;
+  margin-left: 45px;
+  width: 300px;
+  font-size:60px;
+
+}
+
+
+.gifContainer {
+  position: absolute;
+  top: 270px;
+
+}
+
+.trybewarts {
+  position: absolute;
+  margin-left: 45px;
+  text-align: center;
+  font-family: 'Harry Potter', sans-serif;
+                                            
+}
+
+.trybewarts:hover {
+  box-shadow: 10px 10px 0px rgb(145, 145, 145);
+  top: -5px;
+  left: -5px;
+}
+
+.shoppingcart {
+  position: absolute;
+  margin-left: 700px;
+  text-align: center;
+  font-family:'Harabara', sans-serif;
+
+}
+
+.shoppingcart:hover {
+  box-shadow: 10px 10px 0px rgb(145, 145, 145);
+  top: -5px;
+  left: -5px;
+}
+
+.netflixclone {
+  position: absolute;
+  margin-left: 45px;
+  text-align: center;
+  top: 300px;
+  font-family: 'Bebas Neue 900', sans-serif;
+
+}
+
+.netflixclone:hover {
+  box-shadow: 10px 10px 0px rgb(145, 145, 145);
+  left: -5px;
+}
+
+
+.trivia {
+  position: absolute;
+  margin-left: 700px;
+  top: 300px;
+  text-align: center;
+  font-family: 'Slim Play', sans-serif;
+
+}
+
+.trivia:hover {
+  box-shadow: 10px 10px 0px rgb(145, 145, 145);
+  left: -5px;
 }

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutTitle {
+    margin-left: 30px;
+    width: 400px;
+    color: rgb(145, 145, 145);
+    font-size: 20px;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.aboutRun {
+    display: flex;
+    flex-direction: row;
+    width: 410px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.aboutVoluntary {
+    display: flex;
+    flex-direction: row;
+    width: 410px;
+    margin-left: 450px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.aboutHobbys {
+    display: flex;
+    flex-direction: row;
+    width: 410px;
+    margin-left: 870px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.imgRow--listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+
+}
+
+.imgRow--list {
+    transition: all ease 0.5s;
+}
+
+.imgRow--item {
+    display: inline-block;
+    width: 400px;
+    cursor: pointer;
+}
+
+.imgRow--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.4s;
+}
+
+.imgRow--item img:hover {
+    transform: scale(1);
+}
+
+.movieRow--left, 
+.movieRow--right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6 );
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.movieRow--left {
+    left: 0;
+}
+
+.movieRow--right {
+    right: 0;
+}
+
+.carouselRow:hover .movieRow--left, 
+.carouselRow:hover .movieRow--right {
+    opacity: 1;
+}
