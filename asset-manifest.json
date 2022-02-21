@@ -1,7 +1,23 @@
 {
-  "main.css": "static/css/main.40b4a62f.css",
-  "main.css.map": "static/css/main.40b4a62f.css.map",
-  "main.js": "static/js/main.ddaf3552.js",
-  "main.js.map": "static/js/main.ddaf3552.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "files": {
+    "main.css": "/portfolio/static/css/main.29b4e294.css",
+    "main.js": "/portfolio/static/js/main.0af86daf.js",
+    "static/media/NetflixClone.gif": "/portfolio/static/media/NetflixClone.9b737252508f9ce8bd71.gif",
+    "static/media/TriviaGame.gif": "/portfolio/static/media/TriviaGame.c49a2c801b0abcce53a6.gif",
+    "static/media/ShoppingCart.gif": "/portfolio/static/media/ShoppingCart.c978e4aed32589b10cd9.gif",
+    "static/media/Trybewarts.gif": "/portfolio/static/media/Trybewarts.9c3f8162200079548cd1.gif",
+    "static/media/ab4.JPG": "/portfolio/static/media/ab4.91653fdf77907f979c07.JPG",
+    "static/media/ab2.JPG": "/portfolio/static/media/ab2.a7ab027abbdac75cb28a.JPG",
+    "static/media/port.png": "/portfolio/static/media/port.e0fe1c5f60dd0653d7a4.png",
+    "static/media/ab3.JPG": "/portfolio/static/media/ab3.16a188667f76ce5b0d20.JPG",
+    "static/media/ab1.JPG": "/portfolio/static/media/ab1.2f155bcbcf8036508950.JPG",
+    "static/media/ABMessias.png": "/portfolio/static/media/ABMessias.94a3c716398d1409e422.png",
+    "index.html": "/portfolio/index.html",
+    "main.29b4e294.css.map": "/portfolio/static/css/main.29b4e294.css.map",
+    "main.0af86daf.js.map": "/portfolio/static/js/main.0af86daf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29b4e294.css",
+    "static/js/main.0af86daf.js"
+  ]
 }
