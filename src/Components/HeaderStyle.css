@@ -10,3 +10,11 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 414px) {
+    .logoImg {
+        width: 100px;
+        height: 120px;
+        margin-left: 10px;
+    }
+  }

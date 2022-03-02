@@ -28,7 +28,6 @@ footer {
   list-style: none;
   margin-right: 30px;
   margin-top: 10px;
-
 }
 
 li:hover {
@@ -161,4 +160,40 @@ li:hover {
 .trivia:hover {
   box-shadow: 10px 10px 0px rgb(145, 145, 145);
   left: -5px;
+}
+
+@media screen and (max-width: 414px) {
+  li {
+    padding: 10px;
+    margin-right: 30px;
+    transition: box-shadow .5s;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+    cursor: pointer;
+    font-family: 'Luxurious Roman', cursive;
+    border: 2px solid red;
+  
+  }
+
+  .listItems {
+    list-style: none;
+    height: 50px;
+    font-size: smaller;
+    margin-top: 90px;  
+    border: 2px solid red;
+  }
+
+  .portImage {
+  position: absolute;
+  width: 350px;
+  margin-left: 1px;
+  border: 2px solid red;
+  top: 100px;
+  margin-top: 30px;
+  -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, 
+  color-stop(0.00,  rgba(0,0,0,0)),
+  color-stop(1.00,  rgba(0,0,0,1)));
+  }
 }
