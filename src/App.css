@@ -87,7 +87,6 @@ li:hover {
   flex-direction: column;
   position: absolute;
   top: 700px;
- 
 }
 
 .titleContainer {
@@ -124,7 +123,6 @@ li:hover {
   margin-left: 700px;
   text-align: center;
   font-family:'Harabara', sans-serif;
-
 }
 
 .shoppingcart:hover {
@@ -154,7 +152,6 @@ li:hover {
   top: 300px;
   text-align: center;
   font-family: 'Slim Play', sans-serif;
-
 }
 
 .trivia:hover {
@@ -165,35 +162,106 @@ li:hover {
 @media screen and (max-width: 414px) {
   li {
     padding: 10px;
-    margin-right: 30px;
-    transition: box-shadow .5s;
+    margin-right: 10px;
     border-radius:10px;
     border: 1px solid #ccc;
     background: #fff;
     float: left;
-    cursor: pointer;
-    font-family: 'Luxurious Roman', cursive;
-    border: 2px solid red;
-  
+    font-family: 'Luxurious Roman', cursive;  
   }
 
   .listItems {
     list-style: none;
     height: 50px;
     font-size: smaller;
-    margin-top: 90px;  
-    border: 2px solid red;
+    margin-top: 30px;  
+
   }
 
   .portImage {
   position: absolute;
-  width: 350px;
+  width: 390px;
   margin-left: 1px;
-  border: 2px solid red;
   top: 100px;
   margin-top: 30px;
   -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, 
   color-stop(0.00,  rgba(0,0,0,0)),
   color-stop(1.00,  rgba(0,0,0,1)));
   }
+
+  .firstName {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    margin-top: -20px;
+    width: 300px;
+    color: rgb(145, 145, 145);
+    font-size: 20px;
+    font-family: 'Luxurius Roman', cursiuve;
+  }
+
+  .wantedJob {
+    right: 200px;
+    width: 200px;
+    color: rgb(15, 20, 30);
+    font-size: 25px;
+    top: 130px;  
+  }
+
+  .description {
+    text-align: center;
+    margin-left: 90px;
+    width: 200px;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    position: absolute;
+    top: 450px;
+  }
+
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 550px;
+  }
+
+  .trybewarts {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -50px;
+    text-align: center;
+    font-family: 'Harry Potter', sans-serif;                                              
+  }
+
+  .shoppingcart {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 230px;
+    font-family:'Harabara', sans-serif;
+  }
+
+  .netflixclone {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 200px;
+    font-family: 'Bebas Neue 900', sans-serif;
+  }
+
+  .trivia {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 470px;
+    text-align: center;
+    font-family: 'Slim Play', sans-serif;
+  }
+  
+  footer {
+    position: absolute;
+    top: 1870px;
+    width: 350px;
+    margin-left: -420px;
+  }
+
+
 }
