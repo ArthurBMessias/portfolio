@@ -15,7 +15,7 @@ function MainContentContact() {
           <LinkedIn style={{ fontSize: 400 }} />
         </a>
         <a style={{color: "inherit"}}className="gitHub" href="https://github.com/ArthurBMessias">
-          <GitHub  style={{ fontSize: 350 }}/>
+          <GitHub  style={{ fontSize: 400 }}/>
         </a>
       </div>
       <div className='workT'> and let's work together!</div>
