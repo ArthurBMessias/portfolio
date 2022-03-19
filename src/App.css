@@ -167,15 +167,14 @@ li:hover {
     border: 1px solid #ccc;
     background: #fff;
     float: left;
-    font-family: 'Luxurious Roman', cursive;  
+    font-family: 'Luxurious Roman', cursive;
   }
 
   .listItems {
     list-style: none;
     height: 50px;
     font-size: smaller;
-    margin-top: 30px;  
-
+    margin-top: 30px; 
   }
 
   .portImage {

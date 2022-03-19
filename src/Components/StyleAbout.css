@@ -4,7 +4,7 @@
 }
 
 .aboutTitle {
-    margin-left: 30px;
+    margin-left: 10px;
     width: 400px;
     color: rgb(145, 145, 145);
     font-size: 20px;
@@ -94,4 +94,94 @@
 .carouselRow:hover .movieRow--left, 
 .carouselRow:hover .movieRow--right {
     opacity: 1;
+}
+
+@media screen and (max-width: 414px) {
+
+    .aboutRun {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        margin-left: 10px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        position: absolute;
+    }
+    
+    .aboutVoluntary {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 90px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        position: absolute;
+    }
+    
+    .aboutHobbys {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 150px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        position: absolute;
+    }
+
+
+    .imgRow--listarea {
+        overflow-x: hidden;
+        padding-left: 5px;  
+    }
+    
+    .imgRow--list {
+        transition: all ease 0.5s;
+    }
+    
+    .imgRow--item {
+        display: inline-block;
+        width: 400px;
+        cursor: pointer;
+    }
+    
+    .imgRow--item img {
+        width: 100%;
+        transform: scale(0.9);
+        transition: all ease 0.4s;
+    }
+    
+    .imgRow--item img:hover {
+        transform: scale(1);
+    }
+    
+    .movieRow--left, 
+    .movieRow--right {
+        position: absolute;
+        width: 40px;
+        height: 240px;
+        background-color: rgba(0, 0, 0, 0.6 );
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        cursor: pointer;
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+    
+    .movieRow--left {
+        left: 2px;
+    }
+    
+    .movieRow--right {
+        right: 2px;
+    }
+    
+    .carouselRow:hover .movieRow--left, 
+    .carouselRow:hover .movieRow--right {
+        opacity: 1;
+    }
 }
